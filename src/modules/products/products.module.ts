@@ -6,6 +6,10 @@ import { EuropeanProviderService } from './services/european-provider/european-p
 
 @Module({
   controllers: [ProductsController],
-  providers: [ProductsService, BrazilianProviderService, EuropeanProviderService]
+  providers: [
+    ProductsService,
+    BrazilianProviderService,
+    EuropeanProviderService,
+  ],
 })
 export class ProductsModule {}
